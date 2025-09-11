@@ -41,7 +41,7 @@ export default function TemperatureConverter() {
         </div>
 
         <div className="input-group">
-          <label>Fahrenheit (°F)</label>
+          <label>Fahrenheitt (°F)</label>
           <input
             type="number"
             value={fahrenheit}
