@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./TemperatureConverter.css"; // Import the CSS file
 
 export default function TemperatureConverter() {
   const [celsius, setCelsius] = useState("");
@@ -10,7 +11,7 @@ export default function TemperatureConverter() {
     if (value === "") {
       setFahrenheit("");
       return;
-    }
+    } 
     setFahrenheit(((parseFloat(value) * 9) / 5 + 32).toFixed(2));
   };
 
@@ -25,31 +26,33 @@ export default function TemperatureConverter() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <h1 className="text-2xl font-bold mb-6">🌡 Temperature Converter</h1>
+    <div className="app-container">
+      <div className="converter-card">
+        <h1>🌡 Temperature Converter</h1>
 
-      <div className="bg-white p-6 rounded-2xl shadow-md w-80 space-y-4">
-        <div>
-          <label className="block font-medium mb-1">Celsius</label>
+        <div className="input-group">
+          <label>Celsius (°C)</label>
           <input
             type="number"
             value={celsius}
             onChange={handleCelsiusChange}
-            className="w-full p-2 border rounded-lg"
-            placeholder="Enter °C"
+            placeholder="Enter Celsius"
           />
         </div>
 
-        <div>
-          <label className="block font-medium mb-1">Fahrenheit</label>
+        <div className="input-group">
+          <label>Fahrenheit (°F)</label>
           <input
             type="number"
             value={fahrenheit}
             onChange={handleFahrenheitChange}
-            className="w-full p-2 border rounded-lg"
-            placeholder="Enter °F"
+            placeholder="Enter Fahrenheit"
           />
         </div>
+
+        <button onClick={() => { setCelsius(""); setFahrenheit(""); }}>
+          Reset
+        </button>
       </div>
     </div>
   );
