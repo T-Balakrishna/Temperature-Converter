@@ -55,5 +55,5 @@ This project is released under the **MIT License**.
 Feel free to use and modify it as you wish!
 ---
 ## 🧑‍💻 Author
-**Balakrishna T**  
-💼 [GitHub](https://github.com/T-Balakrishna) • 🌐 [Portfolio](https://balakrishnat.vercel.app) • ✉️ [Email](mailto:tbalakrishna2005@gmail.com)
+<strong>Balakrishna T</strong><br>
+💼 [GitHub](https://github.com/T-Balakrishna) • 🌐 [Portfolio](https://balakrishnat.vercel.app) • ✉️ [Email](https://mail.google.com/mail/?view=cm&to=tbalakrishna2005@gmail.com)
