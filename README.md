@@ -1,12 +1,57 @@
-# React + Vite
+🌡️ Temperature Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive Temperature Converter app built with React. Easily convert temperatures between Celsius and Fahrenheit with a sleek, user-friendly interface.
 
-Currently, two official plugins are available:
+Live Demo: https://temperature--converter.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠️ Features
 
-## Expanding the ESLint configuration
+Convert temperatures between Celsius ↔ Fahrenheit
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Instant calculation as you type
+
+Responsive and clean interface
+
+Built with React and Vite
+
+⚙️ Installation
+
+Clone the repository
+
+git clone https://github.com/your-username/temperature-converter.git
+cd temperature-converter
+
+
+Install dependencies
+
+npm install
+
+
+Run the app locally
+
+npm run dev
+
+
+The app will be available at http://localhost:5173/ (default Vite port)
+
+🧪 Usage
+
+Enter a temperature value in Celsius or Fahrenheit
+
+The app will automatically convert to the other unit
+
+Refresh or reset anytime to start over
+
+🚀 Deployment
+
+This project is deployed on Vercel and accessible online:
+
+https://temperature--converter.vercel.app/
+
+📦 Tech Stack
+
+React – Frontend library
+
+Vite – Build tool for React
+
+CSS – Styling and responsive layout
