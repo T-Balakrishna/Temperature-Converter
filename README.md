@@ -1,6 +1,5 @@
 # 🌡️ Temperature Converter
-A simple, sleek, and interactive **Temperature Converter** web app built with **React** and **Vite**. Effortlessly convert temperatures between **Celsius (°C)** and **Fahrenheit (°F)** with real-time updates and a clean, responsive interface.
-🌐 **Live Demo:** [https://temperature--converter.vercel.app/](https://temperature--converter.vercel.app/)
+
 ---
 ## 🛠️ Features
 - 🔁 Convert temperatures between **Celsius ↔ Fahrenheit**  
@@ -13,7 +12,7 @@ A simple, sleek, and interactive **Temperature Converter** web app built with **
 Follow these steps to run the app locally:
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/temperature-converter.git
+   git clone https://github.com/T-Balakrishna/Temperature-Converter.git
    cd temperature-converter
    ```
 2. **Install dependencies:**
@@ -44,11 +43,6 @@ You can also deploy it easily by linking your GitHub project to [Vercel](https:/
 | 🎨 **CSS3** | Styling and responsive design |
 | 🌐 **Vercel** | Hosting and continuous deployment |
 ---
-## 📸 Screenshots
-| Desktop View | Mobile View |
-|---------------|--------------|
-| ![Desktop Screenshot](https://github.com/user-attachments/assets/tempconv-desktop.png) | ![Mobile Screenshot](https://github.com/user-attachments/assets/tempconv-mobile.png) |
----
 ## 🤝 Contributing
 If you'd like to contribute:
 1. Fork the repository  
@@ -62,4 +56,4 @@ Feel free to use and modify it as you wish!
 ---
 ## 🧑‍💻 Author
 **Your Name**  
-💼 [GitHub](https://github.com/your-username) • 🌐 [Portfolio](https://your-portfolio-link.com) • ✉️ [Email](mailto:your-email@example.com)
+💼 [GitHub](https://github.com/T-Balakrishna) • 🌐 [Portfolio](https://balakrishnat.vercel.app) • ✉️ [Email](mailto:tbalakrishna2005@gmail.com)
